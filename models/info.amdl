@@ -1,0 +1,20 @@
+{
+  "model_is_node": false,
+  "nodes": [
+    {
+      "name": "info",
+      "type": "class",
+      "cfg": {
+        "class": "sysinfo",
+        "prj": "arduino",
+        "zero_load_ticks": "9000"
+      },
+      "pos": {
+        "x": -537,
+        "y": -137
+      },
+      "rotate": false,
+      "comment_out": false
+    }
+  ]
+}

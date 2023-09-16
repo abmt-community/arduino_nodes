@@ -1,0 +1,30 @@
+{
+  "type": "list",
+  "elements": [
+    {
+      "signals": [
+        "a1.out"
+      ],
+      "type": "scope",
+      "time_range": 10,
+      "y_max": "auto",
+      "y_min": "auto",
+      "width": 1517,
+      "height": 150
+    },
+    {
+      "signals": [
+        "f.out",
+        "f.in"
+      ],
+      "type": "scope",
+      "time_range": 10,
+      "y_max": "auto",
+      "y_min": "auto",
+      "width": 1517,
+      "height": 150
+    }
+  ],
+  "width": 1517,
+  "height": 852
+}

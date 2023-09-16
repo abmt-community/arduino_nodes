@@ -1,0 +1,457 @@
+{
+  "model_is_node": false,
+  "nodes": [
+    {
+      "name": "D12",
+      "type": "class",
+      "cfg": {
+        "class": "gpio_output",
+        "prj": "arduino",
+        "pin": "D12"
+      },
+      "pos": {
+        "x": -122,
+        "y": -602
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "in": {
+          "node": "e1",
+          "pin": "o"
+        }
+      },
+      "default_values": {
+        "in": "true"
+      }
+    },
+    {
+      "name": "D10",
+      "type": "class",
+      "cfg": {
+        "class": "gpio_output",
+        "prj": "arduino",
+        "pin": "D10"
+      },
+      "pos": {
+        "x": -125,
+        "y": -485
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "in": {
+          "node": "e2",
+          "pin": "o"
+        }
+      },
+      "default_values": {
+        "in": "true"
+      }
+    },
+    {
+      "name": "D8",
+      "type": "class",
+      "cfg": {
+        "class": "gpio_output",
+        "prj": "arduino",
+        "pin": "D8"
+      },
+      "pos": {
+        "x": -120,
+        "y": -371
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "in": {
+          "node": "e3",
+          "pin": "o"
+        }
+      },
+      "default_values": {
+        "in": "true"
+      }
+    },
+    {
+      "name": "D6",
+      "type": "class",
+      "cfg": {
+        "class": "gpio_output",
+        "prj": "arduino",
+        "pin": "D6"
+      },
+      "pos": {
+        "x": -115,
+        "y": -257
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "in": {
+          "node": "e4",
+          "pin": "o"
+        }
+      },
+      "default_values": {
+        "in": "true"
+      }
+    },
+    {
+      "name": "D4",
+      "type": "class",
+      "cfg": {
+        "class": "gpio_output",
+        "prj": "arduino",
+        "pin": "D4"
+      },
+      "pos": {
+        "x": -112,
+        "y": -129
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "in": {
+          "node": "e5",
+          "pin": "o"
+        }
+      },
+      "default_values": {
+        "in": "true"
+      }
+    },
+    {
+      "name": "D2",
+      "type": "class",
+      "cfg": {
+        "class": "gpio_output",
+        "prj": "arduino",
+        "pin": "D2"
+      },
+      "pos": {
+        "x": -115,
+        "y": -13
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "in": {
+          "node": "e6",
+          "pin": "o"
+        }
+      },
+      "default_values": {
+        "in": "true"
+      }
+    },
+    {
+      "name": "e1",
+      "type": "expression",
+      "cfg": {
+        "function": "a>=1",
+        "output_name": "o",
+        "output_type": "auto",
+        "type_header": "",
+        "disable_output": false
+      },
+      "pos": {
+        "x": -342,
+        "y": -602
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "a": {
+          "node": "calc",
+          "pin": "out"
+        }
+      },
+      "default_values": {
+        "a": ""
+      }
+    },
+    {
+      "name": "e2",
+      "type": "expression",
+      "cfg": {
+        "function": "a>=2",
+        "output_name": "o",
+        "output_type": "auto",
+        "type_header": "",
+        "disable_output": false
+      },
+      "pos": {
+        "x": -339,
+        "y": -487
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "a": {
+          "node": "calc",
+          "pin": "out"
+        }
+      },
+      "default_values": {
+        "a": ""
+      }
+    },
+    {
+      "name": "e3",
+      "type": "expression",
+      "cfg": {
+        "function": "a>=3",
+        "output_name": "o",
+        "output_type": "auto",
+        "type_header": "",
+        "disable_output": false
+      },
+      "pos": {
+        "x": -342,
+        "y": -372
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "a": {
+          "node": "calc",
+          "pin": "out"
+        }
+      },
+      "default_values": {
+        "a": ""
+      }
+    },
+    {
+      "name": "e4",
+      "type": "expression",
+      "cfg": {
+        "function": "a>=4",
+        "output_name": "o",
+        "output_type": "auto",
+        "type_header": "",
+        "disable_output": false
+      },
+      "pos": {
+        "x": -340,
+        "y": -257
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "a": {
+          "node": "calc",
+          "pin": "out"
+        }
+      },
+      "default_values": {
+        "a": ""
+      }
+    },
+    {
+      "name": "e5",
+      "type": "expression",
+      "cfg": {
+        "function": "a>=5",
+        "output_name": "o",
+        "output_type": "auto",
+        "type_header": "",
+        "disable_output": false
+      },
+      "pos": {
+        "x": -339,
+        "y": -129
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "a": {
+          "node": "calc",
+          "pin": "out"
+        }
+      },
+      "default_values": {
+        "a": ""
+      }
+    },
+    {
+      "name": "e6",
+      "type": "expression",
+      "cfg": {
+        "function": "a>=6",
+        "output_name": "o",
+        "output_type": "auto",
+        "type_header": "",
+        "disable_output": false
+      },
+      "pos": {
+        "x": -342,
+        "y": -13
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "a": {
+          "node": "calc",
+          "pin": "out"
+        }
+      },
+      "default_values": {
+        "a": ""
+      }
+    },
+    {
+      "name": "a1",
+      "type": "class",
+      "cfg": {
+        "class": "analog_in",
+        "prj": "arduino",
+        "pin": "A0"
+      },
+      "pos": {
+        "x": -1746,
+        "y": -322
+      },
+      "rotate": false,
+      "comment_out": false
+    },
+    {
+      "name": "calc",
+      "type": "expression",
+      "cfg": {
+        "function": "a*7/1024 +b*7/15000",
+        "output_name": "out",
+        "output_type": "auto",
+        "type_header": "",
+        "disable_output": false
+      },
+      "pos": {
+        "x": -1019,
+        "y": -326
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "a": {
+          "node": "a1",
+          "pin": "out"
+        },
+        "b": {
+          "node": "l",
+          "pin": "out"
+        }
+      },
+      "default_values": {
+        "a": "",
+        "b": ""
+      }
+    },
+    {
+      "name": "i2c",
+      "type": "class",
+      "cfg": {
+        "class": "i2c",
+        "prj": "arduino",
+        "baudrate": "400000"
+      },
+      "pos": {
+        "x": -1755,
+        "y": 78
+      },
+      "rotate": false,
+      "comment_out": false
+    },
+    {
+      "name": "info",
+      "type": "class",
+      "cfg": {
+        "class": "sysinfo",
+        "prj": "arduino_nodes",
+        "zero_load_ticks": "13000"
+      },
+      "pos": {
+        "x": -1744,
+        "y": -614
+      },
+      "rotate": false,
+      "comment_out": false
+    },
+    {
+      "name": "s",
+      "type": "class",
+      "cfg": {
+        "class": "mpu6050",
+        "prj": "uc_devices",
+        "enable_magnetometer": false,
+        "use_alternate_address": false
+      },
+      "pos": {
+        "x": -1571,
+        "y": 62
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "i2c_bus": {
+          "node": "i2c",
+          "pin": "i2c_bus"
+        }
+      },
+      "raster": "10ms",
+      "default_values": {
+        "i2c_bus": ""
+      }
+    },
+    {
+      "name": "l",
+      "type": "class",
+      "cfg": {
+        "class": "limit_int",
+        "prj": "uc_math",
+        "min": "0",
+        "max": "15000"
+      },
+      "pos": {
+        "x": -1248,
+        "y": 62
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "in": {
+          "node": "f",
+          "pin": "out"
+        }
+      },
+      "default_values": {
+        "in": "0"
+      }
+    },
+    {
+      "name": "f",
+      "type": "class",
+      "cfg": {
+        "class": "pt1_int",
+        "prj": "uc_math",
+        "Tms": "5000",
+        "initial_value": "{}"
+      },
+      "pos": {
+        "x": -1399,
+        "y": 62
+      },
+      "rotate": false,
+      "comment_out": false,
+      "inputs": {
+        "in": {
+          "node": "s",
+          "pin": "ax"
+        }
+      },
+      "default_values": {
+        "in": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "list",
+  "elements": [
+    {
+      "signals": [
+        "analog_in.out"
+      ],
+      "type": "scope",
+      "time_range": 10,
+      "y_max": "auto",
+      "y_min": "auto",
+      "width": 1517,
+      "height": 223
+    },
+    {
+      "signals": [
+        "state_machine.out"
+      ],
+      "type": "scope",
+      "time_range": 10,
+      "y_max": "auto",
+      "y_min": "auto",
+      "width": 1517,
+      "height": 216
+    }
+  ],
+  "width": 1517,
+  "height": 852
+}

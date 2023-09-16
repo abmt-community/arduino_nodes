@@ -1,0 +1,11 @@
+{
+  "model": "example",
+  "runtime": "arduino",
+  "runtime_configs": {
+    "arduino": {
+      "serial_port": "/dev/ttyUSB0",
+      "serial_baudrate": "1000000",
+      "skip": false
+    }
+  }
+}
