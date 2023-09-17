@@ -6,7 +6,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D12"
       },
       "pos": {
@@ -30,7 +30,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D10"
       },
       "pos": {
@@ -54,7 +54,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D8"
       },
       "pos": {
@@ -78,7 +78,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D6"
       },
       "pos": {
@@ -102,7 +102,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D4"
       },
       "pos": {
@@ -126,7 +126,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D2"
       },
       "pos": {
@@ -435,7 +435,7 @@
       "type": "class",
       "cfg": {
         "class": "analog_in",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "A0"
       },
       "pos": {
@@ -480,8 +480,8 @@
         "zero_load_ticks": "13000"
       },
       "pos": {
-        "x": -1286,
-        "y": -266
+        "x": -1290,
+        "y": -238
       },
       "rotate": false,
       "comment_out": false

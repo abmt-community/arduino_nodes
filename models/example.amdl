@@ -6,7 +6,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D12"
       },
       "pos": {
@@ -22,7 +22,7 @@
         }
       },
       "default_values": {
-        "in": "true"
+        "in": ""
       }
     },
     {
@@ -30,7 +30,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D10"
       },
       "pos": {
@@ -46,7 +46,7 @@
         }
       },
       "default_values": {
-        "in": "true"
+        "in": ""
       }
     },
     {
@@ -54,7 +54,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D8"
       },
       "pos": {
@@ -70,7 +70,7 @@
         }
       },
       "default_values": {
-        "in": "true"
+        "in": ""
       }
     },
     {
@@ -78,7 +78,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D6"
       },
       "pos": {
@@ -94,7 +94,7 @@
         }
       },
       "default_values": {
-        "in": "true"
+        "in": ""
       }
     },
     {
@@ -102,7 +102,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D4"
       },
       "pos": {
@@ -118,7 +118,7 @@
         }
       },
       "default_values": {
-        "in": "true"
+        "in": ""
       }
     },
     {
@@ -126,7 +126,7 @@
       "type": "class",
       "cfg": {
         "class": "gpio_output",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "pin": "D2"
       },
       "pos": {
@@ -142,7 +142,7 @@
         }
       },
       "default_values": {
-        "in": "true"
+        "in": ""
       }
     },
     {
@@ -302,21 +302,6 @@
       }
     },
     {
-      "name": "a1",
-      "type": "class",
-      "cfg": {
-        "class": "analog_in",
-        "prj": "arduino",
-        "pin": "A0"
-      },
-      "pos": {
-        "x": -1746,
-        "y": -322
-      },
-      "rotate": false,
-      "comment_out": false
-    },
-    {
       "name": "calc",
       "type": "expression",
       "cfg": {
@@ -334,7 +319,7 @@
       "comment_out": false,
       "inputs": {
         "a": {
-          "node": "a1",
+          "node": "analog_in",
           "pin": "out"
         },
         "b": {
@@ -346,21 +331,6 @@
         "a": "",
         "b": ""
       }
-    },
-    {
-      "name": "i2c",
-      "type": "class",
-      "cfg": {
-        "class": "i2c",
-        "prj": "arduino",
-        "baudrate": "400000"
-      },
-      "pos": {
-        "x": -1755,
-        "y": 78
-      },
-      "rotate": false,
-      "comment_out": false
     },
     {
       "name": "info",
@@ -452,6 +422,36 @@
       "default_values": {
         "in": ""
       }
+    },
+    {
+      "name": "analog_in",
+      "type": "class",
+      "cfg": {
+        "class": "analog_in",
+        "prj": "arduino_nodes",
+        "pin": "A0"
+      },
+      "pos": {
+        "x": -1539,
+        "y": -310
+      },
+      "rotate": false,
+      "comment_out": false
+    },
+    {
+      "name": "i2c",
+      "type": "class",
+      "cfg": {
+        "class": "i2c",
+        "prj": "arduino_nodes",
+        "baudrate": "400000"
+      },
+      "pos": {
+        "x": -1763,
+        "y": 77
+      },
+      "rotate": false,
+      "comment_out": false
     }
   ]
 }

@@ -6,7 +6,7 @@
       "type": "class",
       "cfg": {
         "class": "sysinfo",
-        "prj": "arduino",
+        "prj": "arduino_nodes",
         "zero_load_ticks": "9000"
       },
       "pos": {
